@@ -6,7 +6,7 @@ import React, {
   useMemo,
 } from "react";
 
-import AppReducer, { initState } from "./reducer/AppReducer";
+import AppReducer, { initState } from "../reducer/AppReducer";
 
 const AppContext = createContext();
 
